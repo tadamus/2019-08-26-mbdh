@@ -31,20 +31,19 @@ see the changes take effect locally.
 EVENTBRITE
 
 This block includes the Eventbrite registration widget if
-‘eventbrite’ has been set in the header.  You can delete it if you
+'eventbrite' has been set in the header.  You can delete it if you
 are not using Eventbrite, or leave it in, since it will not be
-displayed if the ‘eventbrite’ field in the header is not set.
+displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
 <iframe
- src="https://www.eventbrite.com/e/midwest-big-data-hub-columbus-oh-data-carpentry-workshop-tickets-67799218287"
- frameborder=“0"
- width=“100%”
- height=“280px”
- scrolling=“auto”>
+  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
+  frameborder="0"
+  width="100%"
+  height="280px"
+  scrolling="auto">
 </iframe>
 {% endif %}
-
 
 <h2 id="general">General Information</h2>
 
