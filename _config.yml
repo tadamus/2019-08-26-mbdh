@@ -7,11 +7,10 @@
 # dc: Data Carpentry
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor traning for instance)
-carpentry: "swc"
+carpentry: "dc"
 
 # Overall title for pages.
-title: "Workshop Title"
-
+title: "Midwest Big Data Hub Data Carpentry Social Science Workshop"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
